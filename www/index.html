@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title></title>
@@ -20,10 +20,12 @@
     <script src="lib/lodash/dist/lodash.min.js"></script>
     <script src="lib/angular-cache/dist/angular-cache.min.js"></script>
 
+    <script src="lib/showdown/compressed/Showdown.min.js"></script>
+
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es&sensor=true"></script>
-<!--
-    <script src='https://maps.googleapis.com/maps/api/js?sensor=false'></script>
-    -->
+    <!--
+        <script src='https://maps.googleapis.com/maps/api/js?sensor=false'></script>
+        -->
     <script src="lib/angular-google-maps/dist/angular-google-maps.min.js"></script>
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular-resource.min.js"></script>
@@ -34,8 +36,8 @@
     <script src="js/controllers.js"></script>
     <script src="app/app.js"></script>
     <script src="app/teams/team-detail-ctrl.js"></script>
-    <script src="app/home/leagues-ctrl.js"></script>    
-    <script src="app/home/my-teams-ctrl.js"></script>    
+    <script src="app/home/leagues-ctrl.js"></script>
+    <script src="app/home/my-teams-ctrl.js"></script>
     <script src="app/locations/location-ctrl.js"></script>
     <script src="app/teams/teams-ctrl.js"></script>
     <script src="app/standings/standing-ctrl.js"></script>
@@ -46,22 +48,24 @@
     <script src="app/services/mapService.js"></script>
 
     <script src="app/services/myTeamsService.js"></script>
-    
+
     <script src="app/locations/location-map-ctrl.js"></script>
 
     <script src="app/locations/test-location-ctrl.js"></script>
 
     <script src="app/locations/test-location-ctrl.js"></script>
 
+    <script src="app/rules/rules-ctrl.js"></script>
+
     <script src="app/directives/map.js"></script>
+    <script src="app/directives/markdown.js"></script>
 
     <script src="app/dataAccess/data-access-ctrl.js"></script>
 
 
+</head>
 
-  </head>
-
-  <body ng-app="eliteApp"> 
-    <ion-nav-view></ion-nav-view>
-  </body>
+<body ng-app="eliteApp">
+<ion-nav-view></ion-nav-view>
+</body>
 </html>
